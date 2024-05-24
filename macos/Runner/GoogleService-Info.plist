@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyCsG1tOcEfDqfBleUe694CkGcnoM0wXBgc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>650559505459</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.weiminet.flutterFcmTest</string>
+	<key>PROJECT_ID</key>
+	<string>flutter-weimi-test</string>
+	<key>STORAGE_BUCKET</key>
+	<string>flutter-weimi-test.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:650559505459:ios:27dbffb40cc46a6265cf46</string>
+</dict>
+</plist>

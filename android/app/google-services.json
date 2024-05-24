@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "650559505459",
+    "project_id": "flutter-weimi-test",
+    "storage_bucket": "flutter-weimi-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650559505459:android:bbcba9ca591862da65cf46",
+        "android_client_info": {
+          "package_name": "com.weiminet.flutterFcmTest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsREWyCcJbLeoLtKrOKFHesv8cthHHjuk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

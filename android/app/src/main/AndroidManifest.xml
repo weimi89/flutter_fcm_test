@@ -1,8 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
         android:label="flutter_fcm_test"
-        android:name="${applicationName}"
+        android:name=".MyApplication"
         android:icon="@mipmap/ic_launcher">
+        <!-- ↑ 添加預設通知頻道 MyApplication -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -29,6 +30,11 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+
+        <!-- 添加預設通知頻道的 metadata。這樣可以確保 Firebase 在沒有指定通知頻道的情況下使用預設頻道 -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="default_channel" />
     </application>
     <!-- Required to query activities that can process text, see:
          https://developer.android.com/training/package-visibility?hl=en and
